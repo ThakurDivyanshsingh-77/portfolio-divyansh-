@@ -1,0 +1,30 @@
+{
+  "id": "collaborative-code-editor",
+  "title": "Collaborative Code Editor",
+  "description": "Multi-user coding environment using Monaco Editor with live cursor sync, presence tracking, and real-time chat through WebSockets.",
+  "repoUrl": "https://github.com/ThakurDivyanshsingh-77?tab=repositories",
+  "techStack": ["React", "TypeScript", "Vite", "Node.js", "WebSockets", "MongoDB"],
+  "structure": {
+    "root": "collaborative-code-editor",
+    "children": [
+      {
+        "name": "client",
+        "type": "directory",
+        "children": [
+          { "name": "src", "type": "directory" },
+          { "name": "vite.config.ts", "type": "file" }
+        ]
+      },
+      {
+        "name": "server",
+        "type": "directory",
+        "children": [
+          { "name": "socket", "type": "directory" },
+          { "name": "models", "type": "directory" },
+          { "name": "index.js", "type": "file" }
+        ]
+      }
+    ]
+  },
+  "images": []
+}

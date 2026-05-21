@@ -1,0 +1,30 @@
+{
+  "id": "smart-attendance-management-system",
+  "title": "Smart Attendance Management System",
+  "description": "Secure attendance system with one-time session codes, role-based dashboards for admins, teachers, and students, plus real-time tracking.",
+  "repoUrl": "https://github.com/ThakurDivyanshsingh-77?tab=repositories",
+  "techStack": ["Angular", "Node.js", "MongoDB", "JWT"],
+  "structure": {
+    "root": "smart-attendance-management-system",
+    "children": [
+      {
+        "name": "frontend",
+        "type": "directory",
+        "children": [
+          { "name": "src", "type": "directory" },
+          { "name": "angular.json", "type": "file" }
+        ]
+      },
+      {
+        "name": "backend",
+        "type": "directory",
+        "children": [
+          { "name": "controllers", "type": "directory" },
+          { "name": "models", "type": "directory" },
+          { "name": "routes", "type": "directory" }
+        ]
+      }
+    ]
+  },
+  "images": []
+}

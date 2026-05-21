@@ -1,0 +1,16 @@
+
+> macos-terminal-portfolio@0.0.1 dev
+> next dev -p 3001
+
+   ▲ Next.js 15.5.18
+   - Local:        http://localhost:3001
+   - Network:      http://10.17.127.182:3001
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Ready in 7.2s
+ ○ Compiling / ...
+ ✓ Compiled / in 11s (736 modules)
+ GET / 200 in 14505ms
+ ✓ Compiled in 5.5s (323 modules)
+ ✓ Compiled in 859ms (323 modules)

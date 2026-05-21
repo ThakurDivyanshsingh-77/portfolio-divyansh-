@@ -1,0 +1,30 @@
+{
+  "id": "alumni-connect",
+  "title": "Alumni Connect",
+  "description": "Full stack alumni networking platform with JWT authentication, profile management, advanced search filters, and an admin moderation panel.",
+  "repoUrl": "https://github.com/ThakurDivyanshsingh-77?tab=repositories",
+  "techStack": ["React.js", "Node.js", "Express.js", "MongoDB", "JWT"],
+  "structure": {
+    "root": "alumni-connect",
+    "children": [
+      {
+        "name": "client",
+        "type": "directory",
+        "children": [
+          { "name": "src", "type": "directory" },
+          { "name": "package.json", "type": "file" }
+        ]
+      },
+      {
+        "name": "server",
+        "type": "directory",
+        "children": [
+          { "name": "routes", "type": "directory" },
+          { "name": "models", "type": "directory" },
+          { "name": "package.json", "type": "file" }
+        ]
+      }
+    ]
+  },
+  "images": []
+}

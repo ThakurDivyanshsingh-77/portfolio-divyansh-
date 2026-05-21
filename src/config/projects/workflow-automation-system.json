@@ -1,0 +1,30 @@
+{
+  "id": "workflow-automation-system",
+  "title": "Workflow Automation System",
+  "description": "Visual no-code automation platform inspired by n8n, with a drag-and-drop node-based pipeline builder for designing workflows.",
+  "repoUrl": "https://github.com/ThakurDivyanshsingh-77?tab=repositories",
+  "techStack": ["React.js", "Node.js", "Express.js", "MongoDB", "REST APIs"],
+  "structure": {
+    "root": "workflow-automation-system",
+    "children": [
+      {
+        "name": "frontend",
+        "type": "directory",
+        "children": [
+          { "name": "components", "type": "directory" },
+          { "name": "workflow-builder", "type": "directory" }
+        ]
+      },
+      {
+        "name": "backend",
+        "type": "directory",
+        "children": [
+          { "name": "api", "type": "directory" },
+          { "name": "models", "type": "directory" },
+          { "name": "server.js", "type": "file" }
+        ]
+      }
+    ]
+  },
+  "images": []
+}

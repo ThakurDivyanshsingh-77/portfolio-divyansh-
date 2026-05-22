@@ -137,7 +137,7 @@ export default function Desktop({ initialBg, backgroundMap }: AppLayoutProps) {
   const handleAppClose = (app: App) => dispatch({ type: 'CLOSE', app });
 
   return (
-    <div className='relative w-screen h-screen overflow-hidden'>
+    <div className='relative min-h-screen min-w-full overflow-hidden bg-gray-900'>
       <div
         className='absolute inset-0 bg-cover bg-center'
         style={{ backgroundImage: `url(${backgroundMap[currentBg]})` }}
@@ -156,7 +156,7 @@ export default function Desktop({ initialBg, backgroundMap }: AppLayoutProps) {
         />
       </div>
 
-      <div className='relative z-0 flex items-center justify-center h-[calc(100vh-10rem)] md:h-[calc(100vh-1.5rem)] pt-6'>
+      <div className='relative z-0 flex items-center justify-center min-h-[calc(100vh-10rem)] md:min-h-[calc(100vh-1.5rem)] pt-6 pb-32 md:pb-0'>
       </div>
 
       <MobileDock

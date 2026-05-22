@@ -24,16 +24,16 @@ export default function MobileDock({ onGitHubClick, onNotesClick, onResumeClick,
   };
 
   return (
-    <div className='fixed bottom-0 left-0 right-0 md:hidden flex flex-col items-center z-10 space-y-2' role="navigation" aria-label="Mobile dock">
+    <div className='fixed bottom-0 left-0 right-0 md:hidden flex flex-col items-center z-10 space-y-2 px-2 pb-3' role="navigation" aria-label="Mobile dock">
       {/* Top row: viewer icons */}
-      <div className='mx-4 mb-4 p-3 rounded-3xl space-x-4 flex justify-around items-center max-w-[400px] mx-auto' role="toolbar" aria-label="Apps">
+      <div className='w-full max-w-[420px] mx-auto mb-4 p-3 rounded-[2rem] gap-3 flex flex-wrap justify-center items-center' role="toolbar" aria-label="Apps">
         <button
           onClick={onGitHubClick}
           aria-label='Open GitHub projects'
           className='flex flex-col items-center cursor-pointer'
         >
-          <div className='w-18 h-18 bg-black rounded-2xl flex items-center justify-center'>
-            <BsGithub size={55} className='text-white' />
+          <div className='w-14 h-14 sm:w-16 sm:h-16 bg-black rounded-2xl flex items-center justify-center'>
+            <BsGithub size={42} className='text-white' />
           </div>
         </button>
         <button
@@ -41,8 +41,8 @@ export default function MobileDock({ onGitHubClick, onNotesClick, onResumeClick,
           aria-label='Open Notes'
           className='flex flex-col items-center cursor-pointer'
         >
-          <div className='w-18 h-18 bg-gradient-to-t from-yellow-600 to-yellow-400 rounded-2xl flex items-center justify-center'>
-            <BsStickyFill size={55} className='text-white' />
+          <div className='w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-t from-yellow-600 to-yellow-400 rounded-2xl flex items-center justify-center'>
+            <BsStickyFill size={42} className='text-white' />
           </div>
         </button>
         <button
@@ -50,8 +50,8 @@ export default function MobileDock({ onGitHubClick, onNotesClick, onResumeClick,
           aria-label='Open Resume'
           className='flex flex-col items-center cursor-pointer'
         >
-          <div className='w-18 h-18 bg-gradient-to-t from-red-600 to-red-400 rounded-2xl flex items-center justify-center'>
-            <BsFilePdf size={55} className='text-white' />
+          <div className='w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-t from-red-600 to-red-400 rounded-2xl flex items-center justify-center'>
+            <BsFilePdf size={42} className='text-white' />
           </div>
         </button>
         <button
@@ -59,17 +59,17 @@ export default function MobileDock({ onGitHubClick, onNotesClick, onResumeClick,
           aria-label='Open Terminal'
           className='flex flex-col items-center cursor-pointer'
         >
-          <div className='w-18 h-18 bg-black rounded-2xl flex items-center justify-center'>
-            <RiTerminalFill size={55} className='text-white' />
+          <div className='w-14 h-14 sm:w-16 sm:h-16 bg-black rounded-2xl flex items-center justify-center'>
+            <RiTerminalFill size={42} className='text-white' />
           </div>
         </button>
       </div>
 
       {/* Bottom row: contact shortcuts */}
-      <div className='mx-4 mb-4 p-3 bg-gradient-to-t from-gray-700 to-gray-800 backdrop-blur-xl rounded-3xl space-x-4 flex justify-around items-center max-w-[400px] mx-auto' role="toolbar" aria-label="Contact shortcuts">
+      <div className='w-full max-w-[420px] mx-auto mb-4 p-3 bg-gradient-to-t from-gray-700 to-gray-800 backdrop-blur-xl rounded-[2rem] gap-3 flex flex-wrap justify-center items-center' role="toolbar" aria-label="Contact shortcuts">
         <a href={`tel:${userConfig.contact.phone}`} className='flex flex-col items-center' aria-label={`Call ${userConfig.contact.phone}`}>
-          <div className='w-18 h-18 bg-gradient-to-t from-green-600 to-green-400 rounded-2xl flex items-center justify-center'>
-            <IoIosCall size={55} className='text-white' />
+          <div className='w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-t from-green-600 to-green-400 rounded-2xl flex items-center justify-center'>
+            <IoIosCall size={42} className='text-white' />
           </div>
         </a>
 
@@ -78,14 +78,14 @@ export default function MobileDock({ onGitHubClick, onNotesClick, onResumeClick,
           aria-label={`Email ${userConfig.contact.email}`}
           className='flex flex-col items-center cursor-pointer'
         >
-          <div className='w-18 h-18 bg-gradient-to-t from-blue-600 to-blue-400 rounded-2xl flex items-center justify-center'>
-            <IoIosMail size={55} className='text-white' />
+          <div className='w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-t from-blue-600 to-blue-400 rounded-2xl flex items-center justify-center'>
+            <IoIosMail size={42} className='text-white' />
           </div>
         </button>
 
         <a href={userConfig.social.linkedin} className='flex flex-col items-center' aria-label='Open LinkedIn profile' target="_blank" rel="noreferrer noopener">
-          <div className='w-18 h-18 bg-[#0a66c2] rounded-2xl flex items-center justify-center'>
-            <BsLinkedin size={50} className='text-white' />
+          <div className='w-14 h-14 sm:w-16 sm:h-16 bg-[#0a66c2] rounded-2xl flex items-center justify-center'>
+            <BsLinkedin size={42} className='text-white' />
           </div>
         </a>
 
@@ -94,8 +94,8 @@ export default function MobileDock({ onGitHubClick, onNotesClick, onResumeClick,
           aria-label='Open Spotify playlist in new tab'
           className='flex flex-col items-center cursor-pointer'
         >
-          <div className='w-18 h-18 bg-gradient-to-t from-black to-black/55 rounded-2xl flex items-center justify-center'>
-            <BsSpotify size={55} className='text-[#1ED760]' />
+          <div className='w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-t from-black to-black/55 rounded-2xl flex items-center justify-center'>
+            <BsSpotify size={42} className='text-[#1ED760]' />
           </div>
         </button>
       </div>

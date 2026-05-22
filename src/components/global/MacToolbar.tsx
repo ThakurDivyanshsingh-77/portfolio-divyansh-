@@ -15,7 +15,7 @@ import {
 } from 'react-icons/io5';
 import { VscVscode } from 'react-icons/vsc';
 import { userConfig } from '../../config/index';
-import signatureImage from '../../assets/images/me.svg';
+import signatureImage from '../../assets/images/me.jpeg';
 
 type MenuItem = {
   label: string;

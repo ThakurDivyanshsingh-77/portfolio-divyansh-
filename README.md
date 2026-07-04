@@ -3,6 +3,8 @@
 A complete, interactive macOS-style portfolio built with **Next.js 15 App Router**, **TypeScript**, and **Tailwind CSS**. This project recreates a desktop-inspired portfolio experience with draggable windows, dock navigation, Spotlight search, Mission Control, an AI chat terminal, and a secure admin messages dashboard.
 
 ---
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4d008d23-e70c-49fa-b36f-81b29380d677" />
+
 
 ## Table of Contents
 

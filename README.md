@@ -4,6 +4,7 @@ A complete, interactive macOS-style portfolio built with **Next.js 15 App Router
 
 ---
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4d008d23-e70c-49fa-b36f-81b29380d677" />
+<img width="2" height="13" alt="image" src="https://github.com/user-attachments/assets/f2a311b5-db11-4bc4-997d-37004910f6d7" />
 
 
 ## Table of Contents
